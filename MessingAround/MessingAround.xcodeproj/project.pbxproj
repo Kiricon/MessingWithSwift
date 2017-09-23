@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B11677EC1F75D845002B3716 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11677EB1F75D845002B3716 /* main.swift */; };
+		B11677F31F75DA91002B3716 /* dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11677F21F75DA91002B3716 /* dog.swift */; };
+		B11677F61F75DC74002B3716 /* hdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11677F51F75DC74002B3716 /* hdog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B11677E81F75D845002B3716 /* MessingAround */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessingAround; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11677EB1F75D845002B3716 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B11677F21F75DA91002B3716 /* dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
+		B11677F51F75DC74002B3716 /* hdog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hdog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		B11677EA1F75D845002B3716 /* MessingAround */ = {
 			isa = PBXGroup;
 			children = (
+				B11677F41F75DC5C002B3716 /* hotdog */,
 				B11677EB1F75D845002B3716 /* main.swift */,
+				B11677F21F75DA91002B3716 /* dog.swift */,
 			);
 			path = MessingAround;
+			sourceTree = "<group>";
+		};
+		B11677F41F75DC5C002B3716 /* hotdog */ = {
+			isa = PBXGroup;
+			children = (
+				B11677F51F75DC74002B3716 /* hdog.swift */,
+			);
+			name = hotdog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11677F61F75DC74002B3716 /* hdog.swift in Sources */,
+				B11677F31F75DA91002B3716 /* dog.swift in Sources */,
 				B11677EC1F75D845002B3716 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  hdog.swift
 //  MessingAround
 //
 //  Created by Dominic Valenciana on 9/22/17.
@@ -9,9 +9,9 @@
 import Foundation
 
 
-
-let dog = Dog(name: "Cooper")
-print(dog.name)
-let hdog = HDog(name: "Cooper")
-print(hdog.name)
-
+public class HDog {
+    var name = "h";
+    init(name: String) {
+        self.name = "h"+name;
+    }
+}
